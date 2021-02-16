@@ -669,7 +669,6 @@ static void zynqmp_dma_free_descriptors(struct zynqmp_dma_chan *chan)
  */
 static void zynqmp_dma_free_chan_resources(struct dma_chan *dchan)
 {
-	unsigned long irqflags;
 	struct zynqmp_dma_chan *chan = to_chan(dchan);
 	unsigned long irqflags;
 
