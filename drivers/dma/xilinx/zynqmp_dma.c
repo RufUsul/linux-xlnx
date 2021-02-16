@@ -122,7 +122,7 @@
 					ZYNQMP_DMA_DST_DSCR_DONE)
 
 /* Max number of descriptors per channel */
-#define ZYNQMP_DMA_NUM_DESCS	32
+#define ZYNQMP_DMA_NUM_DESCS	10000
 
 /* Max transfer size per descriptor */
 #define ZYNQMP_DMA_MAX_TRANS_LEN	0x40000000
